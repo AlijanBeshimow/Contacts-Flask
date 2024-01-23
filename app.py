@@ -43,7 +43,3 @@ def update():
     query(f"UPDATE contacts SET name='{request.form['name']}', phone='{request.form['phone']}', email='{request.form['email']}', address='{request.form['address']}' WHERE id={request.form['id']}")
     return home()
 
-#TODO: implement OOP so that the object is created with a request.form: Contact(request.form).save()
-#TODO: לשפר את ממשק המשתמש של העדכון
-#TODO: unit testing
-#TODO: JS in another file 
